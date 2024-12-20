@@ -1,0 +1,37 @@
+[
+  {
+      "templateName": "Marketing Strategy",
+      "templateCategory": "Marketing",
+      "createdBy": "alice.johnson@example.com",
+      "approvalStatus": true,
+      "CompletedDate": "2023-10-01T10:15:00Z"
+  },
+  {
+      "templateName": "Financial Report 2023",
+      "templateCategory": "Finance",
+      "createdBy": "john.smith@example.com",
+      "approvalStatus": false,
+      "CompletedDate": "2023-11-20T14:30:00Z"
+  },
+  {
+      "templateName": "Employee Handbook",
+      "templateCategory": "HR",
+      "createdBy": "rachel.lee@example.com",
+      "approvalStatus": true,
+      "CompletedDate": "2023-12-01T09:45:00Z"
+  },
+  {
+      "templateName": "Project Roadmap",
+      "templateCategory": "Development",
+      "createdBy": "david.brown@example.com",
+      "approvalStatus": false,
+      "CompletedDate": "2023-10-15T08:20:00Z"
+  },
+  {
+      "templateName": "Customer Feedback Analysis",
+      "templateCategory": "Research",
+      "createdBy": "sophia.martinez@example.com",
+      "approvalStatus": true,
+      "CompletedDate": "2023-12-05T11:00:00Z"
+  }
+]

@@ -1,0 +1,74 @@
+
+.dashboardlist{
+
+  width: 100%;
+  background-color: #f5f5f5;
+  height: auto;
+  box-sizing: border-box;
+}
+.dashboard-collapsed{
+max-width: 100%;
+background-color: #f5f5f5;
+max-height: 100%;  
+transition: all 100ms;
+}
+.dashboard-list-contents{ 
+  padding: 10px 20px;
+}
+.dashboard-header{
+  text-align: center;
+  max-width: 100%;
+}
+
+/* Employee Table */
+.table-container-dashboard {
+  overflow-x: auto;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+ 
+.stylish-table-dashboard {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+ 
+.stylish-table-dashboard thead {
+  background-color: #2c3e50;
+  color: white;
+}
+ 
+.stylish-table-dashboard th,
+.stylish-table-dashboard td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+ 
+.stylish-table-dashboard tr:hover {
+  background-color: cornflowerblue;
+  color: #2c3e50;
+  cursor: pointer;
+}
+ 
+.stylish-table-dashboard th {
+  font-size: 16px;
+  font-weight: bold;
+}
+ 
+.stylish-table-dashboard td {
+  font-size: 14px;
+  color: #2c3e50;
+}
+ 
+.dashboard-list{
+  display: inline;
+  width: 80%;
+  margin-left: 20%;
+}
+
+.action-button Button{
+   width: 35%;
+}

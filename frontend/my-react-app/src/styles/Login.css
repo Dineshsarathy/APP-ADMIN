@@ -1,0 +1,128 @@
+/* Background Image */
+.bg-img {
+    min-height: 760px;
+    max-height: 100%;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1508144753681-9986d4df99b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Login Container */
+.login-container {
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    backdrop-filter: blur(20px);
+}
+
+/* Typography */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Form Inputs */
+input {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #313131;
+    border-radius: 5px;
+    background-color: white !important;
+    backdrop-filter: blur(10px);
+}
+
+input:focus {
+    outline: 1px solid black;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Message */
+.message {
+    margin-top: 15px;
+    text-align: center;
+    color: red;
+}
+
+/* --- Responsive Design with Media Queries --- */
+
+/* Large Screens (Desktops and Laptops) */
+@media (min-width: 1025px) {
+    .login-container {
+        width: 40%; /* Smaller width for large screens */
+    }
+}
+
+/* Tablets (768px to 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .login-container {
+        width: 60%;
+        padding: 15px; /* Reduce padding for tablets */
+    }
+    input, button {
+        padding: 8px; /* Adjust input/button padding for tablets */
+    }
+}
+
+/* Mobile Phones (Below 768px) */
+@media (max-width: 768px) {
+    .login-container {
+        width: 80%; /* Wider container for smaller screens */
+        top: 20%; /* Adjust position for mobile */
+    }
+
+    input, button {
+        padding: 8px;
+        font-size: 14px; /* Reduce font size for inputs/buttons */
+    }
+}
+
+/* Very Small Phones (Below 480px) */
+@media (max-width: 480px) {
+    .login-container {
+        width: 90%;
+        top: 15%;
+    }
+
+    h2 {
+        font-size: 18px; /* Reduce header size for small screens */
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input, button {
+        font-size: 12px;
+        padding: 6px;
+    }
+}

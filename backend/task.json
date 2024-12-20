@@ -1,0 +1,73 @@
+[
+    {
+      "Template_ID": "TEMPLATE001",
+      "Template_Name": "Login Page Template",
+      "Bug_ID": "BUG123",
+      "Summary": "Fix incorrect validation for email input.",
+      "Screenshot": "https://example.com/screenshots/bug123.png",
+      "Priority": "High",
+      "Severity": "Major",
+      "Status": "In Progress",
+      "Assigned_To": "JohnDoe",
+      "Assigned_Date": "2024-12-01T00:00:00.000Z",
+      "Assigned_Due_Date": "2024-12-10T00:00:00.000Z",
+      "Completed_Date": null
+    },
+    {
+      "Template_ID": "TEMPLATE002",
+      "Template_Name": "Dashboard Template",
+      "Bug_ID": "BUG124",
+      "Summary": "Resolve incorrect data rendering in graphs.",
+      "Screenshot": "https://example.com/screenshots/bug124.png",
+      "Priority": "Medium",
+      "Severity": "Minor",
+      "Status": "Pending",
+      "Assigned_To": "JaneSmith",
+      "Assigned_Date": "2024-12-05T00:00:00.000Z",
+      "Assigned_Due_Date": "2024-12-15T00:00:00.000Z",
+      "Completed_Date": null
+    },
+    {
+      "Template_ID": "TEMPLATE003",
+      "Template_Name": "Profile Page Template",
+      "Bug_ID": "BUG125",
+      "Summary": "Avatar image upload not working.",
+      "Screenshot": null,
+      "Priority": "High",
+      "Severity": "Critical",
+      "Status": "Completed",
+      "Assigned_To": "AliceJohnson",
+      "Assigned_Date": "2024-11-20T00:00:00.000Z",
+      "Assigned_Due_Date": "2024-11-30T00:00:00.000Z",
+      "Completed_Date": "2024-11-29T00:00:00.000Z"
+    },
+    {
+      "Template_ID": "TEMPLATE004",
+      "Template_Name": "Settings Page Template",
+      "Bug_ID": "BUG126",
+      "Summary": "Save button not responding on click.",
+      "Screenshot": "https://example.com/screenshots/bug126.png",
+      "Priority": "Low",
+      "Severity": "Minor",
+      "Status": "Delayed",
+      "Assigned_To": "MichaelBrown",
+      "Assigned_Date": "2024-12-02T00:00:00.000Z",
+      "Assigned_Due_Date": "2024-12-12T00:00:00.000Z",
+      "Completed_Date": null
+    },
+    {
+      "Template_ID": "TEMPLATE005",
+      "Template_Name": "Reports Page Template",
+      "Bug_ID": "BUG127",
+      "Summary": "Export to PDF functionality crashes on large data.",
+      "Screenshot": "https://example.com/screenshots/bug127.png",
+      "Priority": "High",
+      "Severity": "Critical",
+      "Status": "In Progress",
+      "Assigned_To": "ChrisWilson",
+      "Assigned_Date": "2024-12-03T00:00:00.000Z",
+      "Assigned_Due_Date": "2024-12-13T00:00:00.000Z",
+      "Completed_Date": null
+    }
+  ]
+  

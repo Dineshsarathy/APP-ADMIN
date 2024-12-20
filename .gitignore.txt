@@ -1,0 +1,24 @@
+node_modules/
+
+
+
+Git clone
+
+git init
+
+git clone (clone url)
+
+
+first time push
+
+git status
+git add . 
+git commit -m "(name)"
+git push origin master
+
+
+second time push 
+git status
+git add .
+git commit -m "(name)"   eg: "8th commit"
+git push

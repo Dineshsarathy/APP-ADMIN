@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Login css */
+
+.body{
+  box-sizing: border-box;
+  font-family: ' Arial, sans-serif;';
+}
+.App {
+  font-family: 'Poppins';
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+.login-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 8px;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  box-sizing: border-box;
+  
+  backdrop-filter: blur(14px) saturate(200%);
+  -webkit-backdrop-filter: blur(14px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.41);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.login{
+    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.login-props{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkbox{
+  width: 20px;
+  height: 20px;
+}
+.remember{
+  display: flex;
+  align-items: center;
+}
+h2 {
+  margin-bottom: 20px;
+}
+
+.log-btn{
+  border-radius: 10px !important;
+}
+ 
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+  box-sizing: border-box;
+}
+ 
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+ 
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+  height: 50px !important;
+
+
+}
+ 
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #02468f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+ 
+button:hover {
+  background-color: #0056b3;
+}
+ 
+.error {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+ 
+/* SideBar */
+.table-props{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+select {
+  padding: 5px 10px;
+  font-size: 12px;
+  outline: none;
+  height: 35px;
+  background: none;
+  border-radius: 10px;
+  font-family: 'Poppins';
+  
+}
+option{
+  border-radius: 10px;
+
+}
+.filter{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  
+}
+.filter-icon{
+  margin-top: 0;
+  color: black;
+  height: 28%;
+}
+.filter label {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  margin-bottom: 0 !important;
+}
+.items-per-page {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.items-per-page label {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+
+.items-per-page select {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100px;
+  margin-left: -40px;
+}
+
+.items-per-page select:hover {
+  /* border-color: #007bff; */
+  background-color: #eef6ff;
+}
+
+.items-per-page select:focus {
+  outline: none;
+  /* border-color: #0056b3; */
+  box-shadow: 0 0 3px rgba(0, 91, 187, 0.5);
+}
+
+/* action buttons */
+
+button svg{
+  margin: 0 !important;
+  font-size: 20px;
+}
+button{
+  box-sizing: border-box;
+  justify-items: center;
+  align-content: center;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: 3px;
+}
+.edit-btn{
+  background-color: rgb(9, 134, 9);
+ 
+}
+
+button svg{
+  margin: 0 !important;
+  font-size: 20px;
+}
+button{
+  box-sizing: border-box;
+  justify-items: center;
+  align-content: center;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: 3px;
+}
+.edit-btn{
+  background-color: rgb(9, 134, 9);
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+button { 
+  display: inline-flex; /* Flexbox for alignment */
+  margin-left: 20;
+  align-items: center; /* Vertically center text and icon */
+  justify-content: center; /* Horizontally center content */
+  background-color: #8458B3; /* Vibrant blue background */
+  color: white; /* Text and icon color */
+  border: none; /* No border */
+  padding: 12px 20px; /* Adjust padding for better spacing */
+  border-radius: 8px; /* Rounded corners for modern look */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Text size */
+  font-weight: bold; /* Bold text */
+  width: 200px; /* Set button width */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth hover and active states */
+}
+
+button:hover {
+  background-color: blue; /* Darker blue on hover */
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+button:active {
+  background-color: #A020F0; /* Darkest blue on click */
+  transform: scale(0.98); /* Slight shrinking effect on click */
+}
+
+button:disabled {
+  background-color: #ddd; /* Disabled button color */
+  cursor: not-allowed; /* Disable cursor */
+}
+
+/* Style for the icon */
+button .icon {
+  margin-right: 8px; /* Space between icon and text */
+  font-size: 20px; /* Adjust the icon size */
+}
+
+/* Optional: Additional styling for the text */
+button .text {
+  font-size: 16px; /* Text size */
+}
+
+/* <---------------------------------------------Taskreport.css-------------------------------------> */
+
+table {
+  width: 95%;
+  margin: 10px ;
+  border-collapse: collapse;
+  align-items: center;
+
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+  margin: 8px;
+}
+
+table th {
+  background-color: #0e466b;
+  text-align: center;
+  padding: 10px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+table tr:hover {
+  background-color: #e8f6ff;
+}
+
+table td button {
+  margin-right: 10px;
+}
+
+
+/* Table row actions buttons */
+table td button:first-child {
+  background-color: #28a745; /* Edit button */
+}
+
+table td button:last-child {
+  background-color: #dc3545; /* Delete button */
+}
+
+/* Modal styles */
+.modal {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  width: 400px;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.modal input[type="text"],
+.modal input[type="email"],
+.modal input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modal .modal-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal .modal-buttons button {
+  width: 48%;
+}
+
+.modal .modal-buttons button:last-child {
+  background-color: #6c757d;
+}
+
+.modal .modal-buttons button:first-child {
+  background-color: #007bff;
+}
+
+.modal .modal-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.modal .modal-buttons button:last-child:hover {
+  background-color: #5a6268;
+}
+
+.action-buttons{
+
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.action-buttons button{
+  width:60px;
+}
+input.search {
+  width: 260px;
+  border: 1px solid #000 ;
+  height: 35px !important;
+  border-radius: 20px;
+  display: block;
+  padding: 9px 4px 9px 40px;
+  background-color: white;
+}
+.profiles {
+  align-content: center;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
